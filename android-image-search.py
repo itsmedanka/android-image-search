@@ -39,7 +39,7 @@ for i in range(10):
     time.sleep(0.2)
     print("\ ", end='\r')
     time.sleep(0.2)
-time.sleep(5)
+time.sleep(10)
 print(" ", end="\r")
 if browser_url == browser.current_url:
     print("Image is hard to find")
